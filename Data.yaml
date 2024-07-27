@@ -1,0 +1,8 @@
+train: /content/Data/train #đường dẫn folder “train” 
+val: /content/Data/train #Nếu chạy trên Colab thì cần chép đường dẫn trên colab
+	
+test: # test images (optional)
+	
+# Classes
+names:
+  0: Bicycle #có thể thêm các class khác nếu muốn thêm nhiều vật thể
